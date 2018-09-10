@@ -2,10 +2,6 @@
   "name": "ethereumjs-vm",
   "version": "2.4.0",
   "description": "An Ethereum VM implementation",
-  "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "coverage": "nyc npm run coverageTests && nyc report --reporter=text-lcov > .nyc_output/lcov.info",
     "coverageTests": "tape ./tests/api/*.js ./tests/tester.js -s",
